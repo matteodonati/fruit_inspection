@@ -8,7 +8,7 @@ The aim of the first task is to correctly segment the fruit out of the given ima
 
 - Image segmentation:
     1. The gray-level histogram of each image has been computed and then analyzed.
-    2. Based on the result obtained at step 1, a suitable thresholding method has been chosen.
+    2. Based on the result obtained at step i., a suitable thresholding method has been chosen.
     3. A flood-fill method has been used to fill the defect blobs of each image.
     4. Finally, the computed binary mask have finally been applied to the given images.
 
@@ -27,7 +27,7 @@ The aim of the second task is to correctly detect the russet area in each fruit.
 
 - Image segmentation:
     1. The gray-level histogram of each image has been computed and then analyzed.
-    2. Based on the result obtained at step 1, a suitable thresholding method has been chosen.
+    2. Based on the result obtained at step i., a suitable thresholding method has been chosen.
     3. Finally, the computed binary masks have been applied to the given images.
 
 
@@ -46,7 +46,7 @@ The aim of the third task is to correctly detect the defect area in image `C0_00
 
 - Image segmentation:
     1. The gray-level histogram of each image has been computed and then analyzed.
-    2. Based on the result obtained at step 1, a suitable thresholding method has been chosen.
+    2. Based on the result obtained at step i., a suitable thresholding method has been chosen.
     3. The computed binary masks have been modified in order to eliminate the dirt located on the conveyor, as well as the sticker in image `C0_000006`.
     4. Finally, the computed binary masks have been applied to the given images.
 
